@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 5875429758346625097}
   - component: {fileID: 2189310949093873188}
   - component: {fileID: 3741205582408052961}
+  - component: {fileID: 4344304203967078626}
   m_Layer: 6
   m_Name: ArrowParent
   m_TagString: Arrow
@@ -176,3 +177,17 @@ MonoBehaviour:
   rb: {fileID: 5875429758346625097}
   myCollider: {fileID: 3038879599033474391}
   stickingArrow: {fileID: 2626982235141999141, guid: 1d13b6d74696a6141affaa46f76e5723, type: 3}
+--- !u!114 &4344304203967078626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3038879600531933351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: facfc4207c47041469ee033612eb73b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 0}
+  scoreText: {fileID: 0}
